@@ -43,6 +43,8 @@ body{
     border: 1px solid black;
     width: 300px;
     padding: 10px;
+    border-radius: 30px;
+    margin: 10px;
 }
 #authors{
     background-color: black;
