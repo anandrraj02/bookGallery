@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Delius", cursive; 
+}
+body{
+    background-color: rgb(196, 67, 67);
+}
+#offer{
+    background-color: antiquewhite;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    width: 100%;
+}
+.nav{
+    background-color: rgb(209, 149, 149);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+#background{
+    height: 90vh;
+    background: url('./assets/pexels-nitin-arya-386173-1029141.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.col p{
+    font-size: 12px;
+}
+.col img{
+    height: 300px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.col{
+    background-color: rgb(169, 116, 116);
+    text-align: center;
+    border: 1px solid black;
+    width: 300px;
+    padding: 10px;
+}
+#authors{
+    background-color: black;
+}
+.card{
+    text-align: center;
+}
+.card img{
+    height: 150px;
+    border-radius: 50%;
+}
+.card h5{
+    color: bisque;
+}
+footer{
+    background-color: rgb(239, 181, 181);
+}
+.col1 img{
+    height: 70px;
+}
+#heading:hover{
+    color: brown;
+    font-size: 30px;
+}
